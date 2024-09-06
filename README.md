@@ -2,14 +2,14 @@ Voice-Controlled LinkedIn Saved Posts Navigation
 
 Instructions:
 
-1.Setup: Ensure the code is integrated into a webpage with access to the LinkedIn interface. Include the necessary HTML structure for the navigation elements (e.g., .global-nav__primary-items). 2.Keyboard Shortcut: Press Shift + Alt + O to open the saved posts page directly.
+1.Setup: Ensure the code is integrated into a webpage with access to the LinkedIn interface. Include the necessary HTML structure for the navigation elements (e.g., .global-nav__primary-items). 2.Keyboard Shortcut: Press ctrl + Shift + S to open the saved posts page directly.
 
 This script enhances the LinkedIn user experience by adding custom navigation features and voice commands. Here’s what the script does:
 
-1. *Adds "Saved" Tab to Navigation*: 
+2. Adds "Saved" Tab to Navigation: 
    - A new "Saved" tab is created and added to the global navigation menu. This tab redirects users to their saved items on LinkedIn (https://www.linkedin.com/my-items/).
 
-2. *Voice Command Features*:
+3. Voice Command Features:
    - Integrates voice recognition using webkitSpeechRecognition. The script listens for specific voice commands and triggers the appropriate LinkedIn pages:
      - "Open saved" - Opens the "Saved" items page.
      - "Open home" - Navigates to the LinkedIn homepage.
@@ -18,21 +18,21 @@ This script enhances the LinkedIn user experience by adding custom navigation fe
      - "Open message" - Opens the LinkedIn Messaging page.
      - "Open notification" - Opens the Notifications page.
 
-3. *Keyboard Shortcut*:
+4. Keyboard Shortcut:
    - A keyboard shortcut (Ctrl + Shift + S) is added for quick access to the "Saved" tab.
 
-4. *Dynamic Navigation*:
+5. Dynamic Navigation:
    - Functions are included to dynamically open various LinkedIn pages by interacting with the DOM elements representing navigation links.
 
 ### Installation & Usage:
 
-1. *Add the Script*: 
+1. Add the Script: 
    - Insert this script into your browser's console or integrate it into a browser extension that allows custom JavaScript injection (e.g., Tampermonkey).
 
-2. *Voice Commands*:
+2. Voice Commands:
    - Ensure your microphone is enabled and say any of the listed commands to navigate LinkedIn hands-free.
 
-3. *Keyboard Shortcut*:
+3. Keyboard Shortcut:
    - Press Ctrl + Shift + S to quickly open the "Saved" items page.
   
 
